@@ -402,8 +402,9 @@ a, a:hover{
 }
 .contact-us{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 80px 0px 0px;
 	background: #ededed;
+	position: relative;
 }
 .contact-us .title{
 	text-align: center;
@@ -418,17 +419,45 @@ a, a:hover{
 
 .contact-us .inner-contact p{
 	width: 100%;
-	padding: 10px 134px;
+	padding: 15px 10px;
 }
+.main-form{
+	width: 100%;
+	padding: 80px 40px 30px;
+	background:#14141a ;
+	margin: 40px 0px -70px;
+}
+.main-form .form-control{
+	padding: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #444348;
+	background: transparent;
+	border-radius: 2px;
+	border: 1px solid #444348 ;
 
+}
+.main-form .text-right{
+	text-align: right;
+}
+.main-form .btn-primary{
+	padding: 15px 25px;
+	border-radius: 3px;
+	background: #008ed6;
+	color: #fff;
+	border-color:#008ed6 ;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+	background: transparent;
+	color: #008ed6;
+	border-color:#008ed6 ;
 
-
-
-
-
-
-
-
+}
 
 /*footer section*/
 .footer{
@@ -436,7 +465,7 @@ a, a:hover{
 	font-size: 14px;
 	text-align: center;
 	background: #15141a;
-	padding: 40px 0px;
+	padding: 15px 0px;
 }
 
 .footer .social-icons{
@@ -448,8 +477,9 @@ a, a:hover{
 }
 .footer .copyright{
 	color: #79797b;
+	margin-top: 20px;
+   margin-left: 10px;
 }
-
 
 
 
